@@ -2,21 +2,17 @@ package studio1;
 
 import java.util.Scanner;
 
-public class Ordered {
+public class Average {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		System.out.println("Value for x?");
 		int x = in.nextInt();
 		System.out.println("Value for y?");
 		int y = in.nextInt();
-		System.out.println("Value for z?");
-		int z = in.nextInt();
-boolean ordered=((x>y) && (y>z)) || ((z>y) && (y>x));
-System.out.print(ordered);
-	}
+		double average=((x+y)/2.0);
+		System.out.println(average);
+	
 
-}
+}}
